@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'dotenv-rails'
 gem 'devise'
 gem 'bootstrap-sass'
-
+gem 'omniauth-google-oauth2'
 
 group :development do
   gem 'listen', '~> 3.0.5'
