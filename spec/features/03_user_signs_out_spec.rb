@@ -13,7 +13,6 @@ feature 'user signs out', %Q{
     click_link 'Sign Out'
 
     # expect(page).to have_content("Signed out successfully.")
-    expect(page).to have_content("Sign Up")
     expect(page).to have_content("Sign In")
   end
 end
