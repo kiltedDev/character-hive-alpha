@@ -25,12 +25,12 @@
       </div>
 
       <div class="form-group">
-        <%= f.label :password_confirmation %><br />
+        <%= f.label :password_confirmation, "Password Confirmation" %><br />
         <%= f.password_field :password_confirmation, autocomplete: "off", class: 'form-control' %>
       </div>
 
       <div class="form-group">
-        <%= f.submit "Sign up", class: "btn btn-primary btn-block btn-lg" %>
+        <%= f.submit "Sign Up", class: "btn btn-primary btn-block btn-lg" %>
       </div>
     <% end %>
     <div class="text-center">
